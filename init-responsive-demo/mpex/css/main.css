@@ -1,3 +1,9 @@
+.theme-container {
+  padding: 20px;
+  background-color: #D0D0D0;
+  border-radius: 6px;
+}
+
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -62,7 +68,7 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
-    background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
+    background-image:url('http://www.hdwallpapersarena.com/wp-content/uploads/2012/09/The-best-top-desktop-lightning-wallpapers-lightning-wallpaper-4.jpg');
 }
 
 .wrapper {
@@ -86,7 +92,7 @@ body {
 .header-container,
 .footer-container,
 .main aside {
-    background: #FFCC66;
+    background: #FFF;
 }
 
 .title {
@@ -111,8 +117,8 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: black;
-    background: #FF9933;
+    color: white;
+    background: #000066;
 }
 
 nav a:hover,
