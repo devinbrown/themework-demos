@@ -1,0 +1,41 @@
+body {
+  background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
+  background-repeat:repeat;
+}
+
+.theme-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #FF9933;
+  border-radius: 6px;
+}
+
+.hero-unit {
+  border: 10px;
+  background: #FF9933;
+}
+
+.btn {
+  background: #6633FF;
+}
+
+.navbar .navbar-inner {
+  background-color: #FF9933;
+  background-image: none;
+}
+
+.navbar-fixed-top .brand {
+  color: #000;
+}
+
+.navbar .nav > li > a {
+  color: #000;
+}
+
+.navbar .nav-collapse .nav > li > a {
+  color: #000;
+}
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+  background-color: #6633FF;
+}
