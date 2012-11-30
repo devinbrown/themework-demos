@@ -6,13 +6,13 @@ body {
 .theme-container {
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #FF9933;
+  background-color: #FFCC66;
   border-radius: 6px;
 }
 
 .hero-unit {
   border: 10px;
-  background: #FF9933;
+  background: #FFCC66;
 }
 
 .btn {
@@ -20,7 +20,7 @@ body {
 }
 
 .navbar .navbar-inner {
-  background-color: #FF9933;
+  background-color: #FFCC66;
   background-image: none;
 }
 
