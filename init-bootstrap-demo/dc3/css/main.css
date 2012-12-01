@@ -8,11 +8,13 @@ body {
   padding-right: 10px;
   background-color: #FFCC66;
   border-radius: 6px;
+  opacity: 0.9;
 }
 
 .hero-unit {
   border: 10px;
   background: #FFCC66;
+  opacity: 0.9;
 }
 
 .btn {
