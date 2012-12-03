@@ -1,5 +1,5 @@
 body {
-    background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
+    background-image:url('http://www.hdwallpapersarena.com/wp-content/uploads/2012/09/The-best-top-desktop-lightning-wallpapers-lightning-wallpaper-4.jpg');
 }
 
 .main aside {
@@ -10,14 +10,27 @@ body {
 .header-container,
 .footer-container,
 .main aside {
-    border-bottom: 20px solid #6633FF;
+    border-bottom: 20px solid #FFF;
 }
 
 /* accent coloring */
 .header-container,
 .footer-container,
 .main aside {
-    background: #FFCC66;
+    background: #6633FF;
+}
+
+/* second accent coloring */
+nav a {
+    background: #000066;
+    color: white;
+}
+
+.content-container {
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 6px;
+  opacity:0.85;
 }
 
 .title {
@@ -118,9 +131,6 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-
-    color: black;
-    background: #FF9933;
 }
 
 nav a:hover,
