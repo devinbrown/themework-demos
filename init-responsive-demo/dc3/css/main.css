@@ -1,3 +1,29 @@
+body {
+    background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
+}
+
+.main aside {
+    border-top: 20px;
+}
+
+/* primary coloring */
+.header-container,
+.footer-container,
+.main aside {
+    border-bottom: 20px solid #6633FF;
+}
+
+/* accent coloring */
+.header-container,
+.footer-container,
+.main aside {
+    background: #FFCC66;
+}
+
+.title {
+    color: black;
+}
+
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -62,7 +88,6 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
-    background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
 }
 
 .wrapper {
@@ -74,24 +99,7 @@ body {
     ALL: Orange Theme
    =================== */
 
-.header-container {
-    border-bottom: 20px solid #6633FF;
-}
 
-.footer-container,
-.main aside {
-    border-top: 20px solid #6633FF;
-}
-
-.header-container,
-.footer-container,
-.main aside {
-    background: #FFCC66;
-}
-
-.title {
-    color: black;
-}
 
 /* ==============
     MOBILE: Menu
