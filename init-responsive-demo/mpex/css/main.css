@@ -1,8 +1,27 @@
-.theme-container {
-  padding: 20px;
-  background-color: #FFF;
-  border-radius: 6px;
-  opacity:0.9;
+body {
+    background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
+}
+
+.main aside {
+    border-top: 20px;
+}
+
+/* primary coloring */
+.header-container,
+.footer-container,
+.main aside {
+    border-bottom: 20px solid #6633FF;
+}
+
+/* accent coloring */
+.header-container,
+.footer-container,
+.main aside {
+    background: #FFCC66;
+}
+
+.title {
+    color: black;
 }
 
 /* ==========================================================================
@@ -69,7 +88,6 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
-    background-image:url('http://www.hdwallpapersarena.com/wp-content/uploads/2012/09/The-best-top-desktop-lightning-wallpapers-lightning-wallpaper-4.jpg');
 }
 
 .wrapper {
@@ -81,24 +99,7 @@ body {
     ALL: Orange Theme
    =================== */
 
-.header-container {
-    border-bottom: 20px solid #6633FF;
-}
 
-.footer-container,
-.main aside {
-    border-top: 20px solid #6633FF;
-}
-
-.header-container,
-.footer-container,
-.main aside {
-    background: #FFF;
-}
-
-.title {
-    color: black;
-}
 
 /* ==============
     MOBILE: Menu
@@ -118,8 +119,8 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: white;
-    background: #000066;
+    color: black;
+    background: #FF9933;
 }
 
 nav a:hover,
