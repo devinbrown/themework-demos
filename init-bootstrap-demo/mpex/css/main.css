@@ -1,23 +1,22 @@
 body {
-  background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
-  background-repeat:repeat;
+  background-image:url('http://www.hdwallpapersarena.com/wp-content/uploads/2012/09/The-best-top-desktop-lightning-wallpapers-lightning-wallpaper-4.jpg');
   color: black;
 }
 
-/* "orange" */
+/* "grey" */
 .hero-unit,
 .navbar .navbar-inner,
 .content-container {
-  background-color: #FFCC66;
+  background-color: #D0D0D0;
   background-image: none;
   opacity: 0.85;
 }
 
-/* "purple" */
+/* "dark purple" */
 .secondary-color,
 .btn,
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
-  background: #6633FF;
+  background: #330066;
 }
 
 /* text color for navbar */
