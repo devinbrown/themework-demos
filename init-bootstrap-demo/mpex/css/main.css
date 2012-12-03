@@ -3,7 +3,7 @@ body {
   color: black;
 }
 
-/* "orange" */
+/* "grey" */
 .hero-unit,
 .navbar .navbar-inner,
 .content-container {
@@ -12,7 +12,7 @@ body {
   opacity: 0.85;
 }
 
-/* "purple" */
+/* "dark purple" */
 .secondary-color,
 .btn,
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
