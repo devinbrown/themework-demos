@@ -1,42 +1,38 @@
 body {
   background-image:url('http://www.hdwallpapersarena.com/wp-content/uploads/2012/09/The-best-top-desktop-lightning-wallpapers-lightning-wallpaper-4.jpg');
+  color: black;
 }
 
-.theme-container {
-  padding-left: 10px;
-  padding-right: 10px;
+/* "orange" */
+.hero-unit,
+.navbar .navbar-inner,
+.content-container {
   background-color: #D0D0D0;
-  border-radius: 6px;
-  opacity:0.9;
+  background-image: none;
+  opacity: 0.85;
 }
 
-.hero-unit {
-  opacity:0.9;
-  border: 10px;
-  background: #D0D0D0;
-}
-
-.btn {
+/* "purple" */
+.secondary-color,
+.btn,
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
   background: #330066;
 }
 
-.navbar .navbar-inner {
-  background-color: #D0D0D0;
-  background-image: none;
-}
-
-.navbar-fixed-top .brand {
-  color: #000;
-}
-
-.navbar .nav > li > a {
-  color: #000;
-}
-
+/* text color for navbar */
+.navbar-fixed-top .brand,
 .navbar .nav-collapse .nav > li > a {
   color: #000;
 }
 
-.navbar .nav .active > a, .navbar .nav .active > a:hover {
-  background-color: #330066;
+/** padding **/
+
+.content-container {
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.row {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
