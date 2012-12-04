@@ -1,191 +1,59 @@
-<!doctype html>
-<html lang="us">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <head>
-	<meta charset="utf-8">
-	<title>index.html</title>
-	<link href="css/sunny/jquery-ui-1.9.2.custom.css" rel="stylesheet">
-	<script src="js/jquery-1.8.3.js"></script>
-	<script src="js/jquery-ui-1.9.2.custom.js"></script>
-	<script>
-	$(function() {
-
-		$( "#accordion" ).accordion();
-
-
-
-		var availableTags = [
-			"ActionScript",
-			"AppleScript",
-			"Asp",
-			"BASIC",
-			"C",
-			"C++",
-			"Clojure",
-			"COBOL",
-			"ColdFusion",
-			"Erlang",
-			"Fortran",
-			"Groovy",
-			"Haskell",
-			"Java",
-			"JavaScript",
-			"Lisp",
-			"Perl",
-			"PHP",
-			"Python",
-			"Ruby",
-			"Scala",
-			"Scheme"
-		];
-		$( "#autocomplete" ).autocomplete({
-			source: availableTags
-		});
-
-
-
-		$( "#button" ).button();
-		$( "#radioset" ).buttonset();
-
-
-
-		$( "#tabs" ).tabs();
-
-
-
-		$( "#dialog" ).dialog({
-			autoOpen: false,
-			width: 400,
-			buttons: [
-				{
-					text: "Ok",
-					click: function() {
-						$( this ).dialog( "close" );
-					}
-				},
-				{
-					text: "Cancel",
-					click: function() {
-						$( this ).dialog( "close" );
-					}
-				}
-			]
-		});
-
-		// Link to open the dialog
-		$( "#dialog-link" ).click(function( event ) {
-			$( "#dialog" ).dialog( "open" );
-			event.preventDefault();
-		});
-
-
-
-		$( "#datepicker" ).datepicker({
-			inline: true
-		});
-
-
-
-		$( "#slider" ).slider({
-			range: true,
-			values: [ 17, 67 ]
-		});
-
-
-
-		$( "#progressbar" ).progressbar({
-			value: 20
-		});
-
-
-		// Hover states on the static widgets
-		$( "#dialog-link, #icons li" ).hover(
-			function() {
-				$( this ).addClass( "ui-state-hover" );
-			},
-			function() {
-				$( this ).removeClass( "ui-state-hover" );
-			}
-		);
-	});
-	</script>
-	<style>
-	body{
-		font: 62.5% "Trebuchet MS", sans-serif;
-		margin: 50px;
-	}
-	.demoHeaders {
-		margin-top: 2em;
-	}
-	#dialog-link {
-		padding: .4em 1em .4em 20px;
-		text-decoration: none;
-		position: relative;
-	}
-	#dialog-link span.ui-icon {
-		margin: 0 5px 0 0;
-		position: absolute;
-		left: .2em;
-		top: 50%;
-		margin-top: -8px;
-	}
-	#icons {
-		margin: 0;
-		padding: 0;
-	}
-	#icons li {
-		margin: 2px;
-		position: relative;
-		padding: 4px 0;
-		cursor: pointer;
-		float: left;
-		list-style: none;
-	}
-	#icons span.ui-icon {
-		float: left;
-		margin: 0 4px;
-	}
-
-	footer {
-		padding-top: 40px;
-	}
-	</style>
+  <meta charset='utf-8'>
+    <title>index.html</title>
+    <link href='css/sunny/jquery-ui-1.9.2.custom.css' rel='stylesheet' />
+    <link href='css/sunny/extracted-css.css' rel='stylesheet'>
+      <script src='js/jquery-1.8.3.js'></script>
+      <script src='js/jquery-ui-1.9.2.custom.js'></script>
+      <script src='js/extracted-js.js'></script>
+    </link>
+  </meta>
 </head>
 <body>
-
-<h1 class="theme-container">MPEX Field Catalog</h1>
-
-
-<div id="tabs">
-	<ul>
-		<li><a href="#tabs-1">Home</a></li>
-		<li><a href="#tabs-2">Reports</a></li>
-		<li><a href="#tabs-3">Radar</a></li>
-		<li><a href="#tabs-3">Model / Forecast</a></li>
-		<li><a href="#tabs-3">Research</a></li>
-		<li><a href="#tabs-3">Missions</a></li>
-		<li><a href="#tabs-3">Tools & Links</a></li>
-		<li><a href="#tabs-3">Data Access</a></li>
-		<li><a href="#tabs-3">Help</a></li>
-	</ul>
-	<div id="tabs-1">
-		<div class="ui-widget">
-			<h2>Project Timeline</h2>
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-
-			<h2>Resource</h2>
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-
-			<h2>Latest news</h2>
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-		</div>
-	</div>
-	<div id="tabs-2">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.</div>
-	<div id="tabs-3">Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.</div>
-</div>
-
-</br>
-
-<footer class="theme-container">&copy; NCAR EOL 1994-2013. All Rights Reserved.</footer>
-
+  <h1 class='theme-container'>MPEX Field Catalog</h1>
+  <div id='tabs'>
+    <ul>
+      <li>
+        <a href='#tabs-1'>Home</a>
+      </li>
+      <li>
+        <a href='#tabs-2'>Reports</a>
+      </li>
+      <li>
+        <a href='#tabs-3'>Radar</a>
+      </li>
+      <li>
+        <a href='#tabs-3'>Model / Forecast</a>
+      </li>
+      <li>
+        <a href='#tabs-3'>Research</a>
+      </li>
+      <li>
+        <a href='#tabs-3'>Missions</a>
+      </li>
+      <li>
+        <a href='#tabs-3'>Tools & Links</a>
+      </li>
+      <li>
+        <a href='#tabs-3'>Data Access</a>
+      </li>
+      <li>
+        <a href='#tabs-3'>Help</a>
+      </li>
+    </ul>
+    <div id='tabs-1'>
+      <div class='ui-widget'>
+        <h2>Project Timeline</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+        <h2>Resource</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+        <h2>Latest news</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+      </div>
+    </div>
+    <div id='tabs-2'>Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.</div>
+    <div id='tabs-3'>Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.</div>
+  </div>
+  <footer class='theme-container'>© NCAR EOL 1994-2013. All Rights Reserved.</footer>
 </body>
-</html>
