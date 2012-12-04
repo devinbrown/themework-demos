@@ -2,7 +2,7 @@
 /[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
 /[if IE 7] <html class="no-js lt-ie9 lt-ie8">
 /[if IE 8] <html class="no-js lt-ie9">
-/[if gt IE 8]><!%html.no-js<![endif]
+/[if gt IE 8]> <html class=no-js>
 
 %head
   %link{:href => "css/bootstrap.min.css", :rel => "stylesheet"}
@@ -19,13 +19,10 @@
   %link{:href => "css/main.css", :rel => "stylesheet"}
 
   %script{:src => "js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"}
+
 %body
 
-  //[CDATA[
-  <!--[if lt IE 7]>
-  <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-  <![endif]-->
-  //]]
+  /<!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 
   / This code is taken from http://twitter.github.com/bootstrap/examples/hero.html
   .navbar.navbar-inverse.navbar-fixed-top
@@ -104,19 +101,15 @@
 
 %script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" }
 
-//[CDATA[
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-//]]
+:javascript
+  window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')
 
 %script{ :src => "js/vendor/bootstrap.min.js" }
 %script{ :src => "js/plugins.js" }
 %script{ :src => "js/main.js" }
 
-//[CDATA[
-<script>
-var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
-//]]
+:javascript
+  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
