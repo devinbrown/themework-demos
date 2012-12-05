@@ -24,36 +24,6 @@
 
   /<!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 
-  / This code is taken from http://twitter.github.com/bootstrap/examples/hero.html
-  .navbar.navbar-inverse.navbar-fixed-top
-    .navbar-inner
-      .container
-        %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
-          %span.icon-bar
-          %span.icon-bar
-          %span.icon-bar
-        %a.brand{:href => "#"} MPEX
-        .nav-collapse.collapse
-          %ul.nav
-            %li.active
-              %a{:href => "#"} Home
-            %li
-              %a{:href => "#"} Reports
-            %li
-              %a{:href => "#"} Radar
-            %li
-              %a{:href => "#"} Model / Forecast
-            %li
-              %a{:href => "#"} Research
-            %li
-              %a{:href => "#"} Missions
-            %li
-              %a{:href => "#"} Tools & Links
-            %li
-              %a{:href => "#"} Data Access
-            %li
-              %a{:href => "#"} Help
-
   .container
 
     .hero-unit
@@ -61,6 +31,36 @@
       %p This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
       %p
         %a.btn.btn-primary.btn-large Learn more »
+
+    .navbar.navbar-inverse
+      .navbar-inner
+        .container
+          %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.brand{:href => "#"} MPX
+          .nav-collapse.collapse
+            %ul.nav
+              %li.active
+                %a{:href => "#"} Home
+              %li
+                %a{:href => "#"} Reports
+              %li
+                %a{:href => "#"} Radar
+              %li
+                %a{:href => "#"} Model / Forecast
+              %li
+                %a{:href => "#"} Research
+              %li
+                %a{:href => "#"} Missions
+              %li
+                %a{:href => "#"} Tools & Links
+              %li
+                %a{:href => "#"} Data Access
+              %li
+                %a{:href => "#"} Help
+
 
     .row
       .span6
