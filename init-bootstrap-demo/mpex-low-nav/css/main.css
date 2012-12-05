@@ -1,5 +1,18 @@
+@media (min-width: 768px) {
+  body {
+    background-image:url('http://www.hdwallpapersarena.com/wp-content/uploads/2012/09/The-best-top-desktop-lightning-wallpapers-lightning-wallpaper-4.jpg');
+    background-repeat:repeat;
+    color: black;
+  }
+}
+
+@media (max-width: 767px) {
+   body {
+     background-color: #330099;
+  }
+}
+
 body {
-  background-image:url('http://www.hdwallpapersarena.com/wp-content/uploads/2012/09/The-best-top-desktop-lightning-wallpapers-lightning-wallpaper-4.jpg');
   color: black;
 }
 
