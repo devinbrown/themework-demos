@@ -1,7 +1,15 @@
-body {
-  background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
-  background-repeat:repeat;
-  color: black;
+@media (min-width: 768px) {
+  body {
+    background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
+    background-repeat:repeat;
+    color: black;
+  }
+}
+
+@media (max-width: 767px) {
+   body {
+     background-color: #C0C0C0;
+  }
 }
 
 /* "orange" */
