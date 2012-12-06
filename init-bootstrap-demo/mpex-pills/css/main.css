@@ -14,10 +14,21 @@
   background: #330066;
 }
 
-/* text color for navbar */
-.navbar-fixed-top .brand,
-.navbar .nav-collapse .nav > li > a {
+/* pills-nav bar styling */
+.nav-tabs > li > a,
+.nav-pills > li > a {
+  background-color: #D0D0D0;
   color: #000;
+  font-weight: bold;
+  padding-right: 17px;
+  padding-left: 17px;
+  margin-right: 4px;
+  line-height: 20px;
+}
+
+/* 'active pill' */
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: #330066;
 }
 
 /** padding **/
