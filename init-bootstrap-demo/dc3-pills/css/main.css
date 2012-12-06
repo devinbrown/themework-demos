@@ -1,0 +1,60 @@
+/* "orange" */
+.hero-unit,
+.navbar .navbar-inner,
+.content-container {
+  background-color: #FFCC66;
+  background-image: none;
+  opacity: 0.85;
+}
+
+/* "purple" */
+.secondary-color,
+.btn,
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+  background: #6633FF;
+}
+
+/* pills-nav bar styling */
+.nav-tabs > li > a,
+.nav-pills > li > a {
+  background-color: #FFCC66;
+  color: #000;
+  font-weight: bold;
+  padding-right: 17px;
+  padding-left: 17px;
+  margin-right: 4px;
+  line-height: 20px;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: #6633FF;
+}
+
+/** padding **/
+
+.content-container {
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 980px) {
+  body {
+    background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
+    background-repeat:repeat;
+    color: black;
+  }
+}
+
+@media (max-width: 980px) {
+   body {
+     background-color: #FFF;
+  }
+  .container {
+    padding-top: 30px;
+  }
+}
