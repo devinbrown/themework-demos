@@ -1,17 +1,3 @@
-@media (min-width: 768px) {
-  body {
-    background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
-    background-repeat:repeat;
-    color: black;
-  }
-}
-
-@media (max-width: 767px) {
-   body {
-     background-color: #FFF;
-  }
-}
-
 /* "orange" */
 .hero-unit,
 .navbar .navbar-inner,
@@ -44,4 +30,18 @@
 .row {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
+    background-repeat:repeat;
+    color: black;
+  }
+}
+
+@media (max-width: 767px) {
+   body {
+     background-color: #FFF;
+  }
 }
