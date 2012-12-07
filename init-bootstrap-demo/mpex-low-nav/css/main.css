@@ -1,4 +1,5 @@
 body {
+  padding-top: 15px;
   color: black;
 }
 
@@ -13,7 +14,6 @@ body {
 
 /* "dark purple" */
 .secondary-color,
-.btn,
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
   background: #330066;
 }
@@ -23,10 +23,26 @@ body {
   color: #000;
 }
 
+.navbar {
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+
 .content-container {
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  border-radius: 5px;
+}
+
+.spacer {
+    margin-left: -7px;
+    margin-right: -7px;
 }
 
 @media (min-width: 980px) {

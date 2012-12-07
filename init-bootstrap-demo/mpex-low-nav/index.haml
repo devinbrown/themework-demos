@@ -10,7 +10,6 @@
       %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
         %meta{:content => "", :name => "description"}
           %meta{:content => "width=device-width", :name => "viewport"}
-
   %link{:href => "css/bootstrap-responsive.min.css", :rel => "stylesheet"}
   %link{:href => "css/main.css", :rel => "stylesheet"}
 
@@ -24,47 +23,46 @@
 
     .hero-unit
       %h1 MPEX Field Catalog
-      %p This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
-      %p
-        %a.btn.btn-primary.btn-large Learn more »
 
     .navbar.navbar-inverse
       .navbar-inner
-        .container
-          %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
-          %a.brand{:href => "#"} MPX
-          .nav-collapse.collapse
-            %ul.nav
-              %li.active
-                %a{:href => "#"} Home
-              %li
-                %a{:href => "#"} Reports
-              %li
-                %a{:href => "#"} Radar
-              %li
-                %a{:href => "#"} Model / Forecast
-              %li
-                %a{:href => "#"} Research
-              %li
-                %a{:href => "#"} Missions
-              %li
-                %a{:href => "#"} Tools & Links
-              %li
-                %a{:href => "#"} Data Access
-              %li
-                %a{:href => "#"} Help
-
+        %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        %a.brand{:href => "#"} MPEX
+        .nav-collapse.collapse
+          %ul.nav
+            %li.active
+              %a{:href => "#"} Home
+            %li
+              %a{:href => "#"} Reports
+            %li
+              %a{:href => "#"} Radar
+            %li
+              %a{:href => "#"} Model / Forecast
+            %li
+              %a{:href => "#"} Research
+            %li
+              %a{:href => "#"} Missions
+            %li
+              %a{:href => "#"} Tools & Links
+            %li
+              %a{:href => "#"} Data Access
+            %li
+              %a{:href => "#"} Help
     .row-fluid
-      .span6
+      .span4
         .content-container
           %h2 Project Reports
           %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-      .span6
-        .content-container
+      .span4
+        .content-container.spacer
           %h2 Latest News
+          %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+      .span4
+        .content-container
+          %h2 More Content
           %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
     .row-fluid
       .span12
@@ -72,27 +70,26 @@
           %h2 History
           %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
           %p Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
-    %hr
-      %footer.content-container
-        .row
-          .span3
-            %ul
-              %li MPEX Website
-              %li Twitter
-              %li EOL Website
-              %li Contact Us
-          .span3
-            %ul
-              %li Facebook
-              %li Page
-              %li EOL Link
-              %li Something
-          .span3
-            %ul
-              %li SIG
-              %li Space
-              %li A Link
-              %li Help
+    %footer.content-container
+      .row-fluid
+        .span3
+          %ul
+            %li MPEX Website
+            %li Twitter
+            %li EOL Website
+            %li Contact Us
+        .span3
+          %ul
+            %li Facebook
+            %li Page
+            %li EOL Link
+            %li Something
+        .span3
+          %ul
+            %li SIG
+            %li Space
+            %li A Link
+            %li Help
 
 %script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" }
 
