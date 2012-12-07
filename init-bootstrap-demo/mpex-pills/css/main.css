@@ -1,17 +1,14 @@
-/* "grey" */
+body {
+  padding-top: 15px;
+  color: black;
+}
+
+/* "orange" */
 .hero-unit,
-.navbar .navbar-inner,
 .content-container {
   background-color: #D0D0D0;
   background-image: none;
   opacity: 0.85;
-}
-
-/* "dark purple" */
-.secondary-color,
-.btn,
-.navbar .nav .active > a, .navbar .nav .active > a:hover {
-  background: #330066;
 }
 
 .nav-tabs > li > a,
@@ -25,12 +22,16 @@
   line-height: 20px;
 }
 
+/* purple */
 .nav-pills > .active > a, .nav-pills > .active > a:hover {
     background-color: #330066;
 }
 
 /*http://stackoverflow.com/questions/7165423/twitter-bootstrap-center-pills*/
-.centered-pills { text-align:center; }
+.centered-pills {
+  text-align:center;
+  margin-bottom: -20px;
+}
 .centered-pills ul.nav-pills { display:inline-block; }
 .centered-pills li { display:inline; }
 .centered-pills a { float:left; }
@@ -40,14 +41,27 @@
 .content-container {
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  border-radius: 5px;
+}
+
+left-spacer {
+  margin-left: -8px;
+}
+
+.right-spacer {
+  margin-right: -8px;
 }
 
 @media (min-width: 980px) {
   body {
-        background-image:url('http://www.hdwallpapersarena.com/wp-content/uploads/2012/09/The-best-top-desktop-lightning-wallpapers-lightning-wallpaper-4.jpg');
+    background-image:url('http://www.hdwallpapersarena.com/wp-content/uploads/2012/09/The-best-top-desktop-lightning-wallpapers-lightning-wallpaper-4.jpg');
     background-repeat:repeat;
-    color: black;
   }
 }
 
@@ -56,3 +70,9 @@
      background-color: #FFF;
   }
 }
+
+.hero-unit {
+  text-align: center;
+  margin-bottom: 10px;
+}
+

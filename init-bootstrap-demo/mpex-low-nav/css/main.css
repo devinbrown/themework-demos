@@ -57,3 +57,7 @@ body {
      background-color: #FFF;
   }
 }
+
+.hero-unit {
+  text-align: center;
+}
