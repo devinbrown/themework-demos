@@ -1,5 +1,5 @@
 body {
-  padding-top: 15px;
+  color: black;
 }
 
 /* "orange" */
@@ -33,7 +33,6 @@ body {
   body {
     background-image:url('http://catalog.eol.ucar.edu/gif/EOL_CDS_watermark.png');
     background-repeat:repeat;
-    color: black;
   }
 }
 
