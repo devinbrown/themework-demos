@@ -1,51 +1,92 @@
 <html>
+  <head>
+    <link href='http://twitter.github.com/bootstrap/assets/css/bootstrap.css' rel='stylesheet' />
+    <link href='http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css' rel='stylesheet' />
+    <script src='http://twitter.github.com/bootstrap/assets/js/jquery.js'></script>
+    <script src='http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js'></script>
+    <script src='http://twitter.github.com/bootstrap/assets/js/bootstrap-carousel.js'></script>
+  </head>
   <body>
-    <h1>Field Catalog Theming Demos</h1>
-    <h2>1.0 Twitter Bootstrap</h2>
-    <h3>1.1 Very Default - FIXED LAYOUT</h3>
-    <ul>
-      <li>
-        <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/dc3/index.html'>1.1.1 DC3 Field Catalog</a>
-      </li>
-      <li>
-        <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/mpex/index.html'>1.1.2 MPEX Field Catalog</a>
-      </li>
-    </ul>
-    <h3>1.2 Lower Navbar - FLUID LAYOUT</h3>
-    <ul>
-      <li>
-        <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/dc3-low-nav/index.html'>1.2.1 DC3 Field Catalog</a>
-      </li>
-      <li>
-        <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/mpex-low-nav/index.html'>1.2.2 MPEX Field Catalog</a>
-      </li>
-    </ul>
-    <h3>1.3 Navbar-Pills  - FLUID LAYOUT</h3>
-    <ul>
-      <li>
-        <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/dc3-pills/index.html'>1.3.1 DC3 Field Catalog</a>
-      </li>
-      <li>
-        <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/mpex-pills/index.html'>1.3.2 MPEX Field Catalog</a>
-      </li>
-    </ul>
-    <h2>2.0 Responsive</h2>
-    <ul>
-      <li>
-        <a href='http://devinbrown.github.com/themework-demos/init-responsive-demo/dc3/index.html'>2.0.1 DC3 Field Catalog</a>
-      </li>
-      <li>
-        <a href='http://devinbrown.github.com/themework-demos/init-responsive-demo/mpex/index.html'>2.0.2 MPEX Field Catalog</a>
-      </li>
-    </ul>
-    <h2>3.0 jQuery UI</h2>
-    <ul>
-      <li>
-        <a href='http://devinbrown.github.com/themework-demos/jquery-ui-demo/dc3/index.html'>3.0.1 DC3 Field Catalog</a>
-      </li>
-      <li>
-        <a href='http://devinbrown.github.com/themework-demos/jquery-ui-demo/mpex/index.html'>3.0.2 MPEX Field Catalog</a>
-      </li>
-    </ul>
+    <div class='container-fluid'>
+      <div align='center' class='hero-unit'>
+        <h1>Field Catalog Theming Demos</h1>
+      </div>
+      <div class='accordion-group'>
+        <div class='accordion-heading'>
+          <a class='accordion-toggle' data-parent='#accordion2' data-toggle='collapse' href='#collapseOne'>
+            <h2>1.0 Twitter Bootstrap</h2>
+          </a>
+        </div>
+        <div class='accordion-body collapse' id='collapseOne'>
+          <div class='accordion-inner'>
+            <h3>1.1 Very Default - FIXED LAYOUT</h3>
+            <ul>
+              <li>
+                <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/dc3/index.html'>1.1.1 DC3 Field Catalog</a>
+              </li>
+              <li>
+                <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/mpex/index.html'>1.1.2 MPEX Field Catalog</a>
+              </li>
+            </ul>
+            <h3>1.2 Lower Navbar - FLUID LAYOUT</h3>
+            <ul>
+              <li>
+                <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/dc3-low-nav/index.html'>1.2.1 DC3 Field Catalog</a>
+              </li>
+              <li>
+                <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/mpex-low-nav/index.html'>1.2.2 MPEX Field Catalog</a>
+              </li>
+            </ul>
+            <h3>1.3 Navbar-Pills  - FLUID LAYOUT</h3>
+            <ul>
+              <li>
+                <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/dc3-pills/index.html'>1.3.1 DC3 Field Catalog</a>
+              </li>
+              <li>
+                <a href='http://devinbrown.github.com/themework-demos/init-bootstrap-demo/mpex-pills/index.html'>1.3.2 MPEX Field Catalog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class='accordion-group'>
+        <div class='accordion-heading'>
+          <a class='accordion-toggle' data-parent='#accordion2' data-toggle='collapse' href='#collapseTwo'>
+            <h2>2.0 Responsive</h2>
+          </a>
+        </div>
+        <div class='accordion-body collapse' id='collapseTwo'>
+          <div class='accordion-inner'>
+            <ul>
+              <li>
+                <a href='http://devinbrown.github.com/themework-demos/init-responsive-demo/dc3/index.html'>2.0.1 DC3 Field Catalog</a>
+              </li>
+              <li>
+                <a href='http://devinbrown.github.com/themework-demos/init-responsive-demo/mpex/index.html'>2.0.2 MPEX Field Catalog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class='accordion-group'>
+        <div class='accordion-heading'>
+          <a class='accordion-toggle' data-parent='#accordion2' data-toggle='collapse' href='#collapseThree'>
+            <h2>3.0 jQuery UI</h2>
+          </a>
+        </div>
+        <div class='accordion-body collapse' id='collapseThree'>
+          <div class='accordion-inner'>
+            <ul>
+              <li>
+                <a href='http://devinbrown.github.com/themework-demos/jquery-ui-demo/dc3/index.html'>3.0.1 DC3 Field Catalog</a>
+              </li>
+              <li>
+                <a href='http://devinbrown.github.com/themework-demos/jquery-ui-demo/mpex/index.html'>3.0.2 MPEX Field Catalog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
