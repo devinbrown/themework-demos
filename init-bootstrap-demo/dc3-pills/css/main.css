@@ -1,7 +1,3 @@
-body {
-  padding-top: 20px;
-}
-
 /* "orange" */
 .hero-unit,
 .navbar .navbar-inner,
@@ -18,15 +14,14 @@ body {
   background: #6633FF;
 }
 
-/* pills-nav bar styling */
 .nav-tabs > li > a,
 .nav-pills > li > a {
   background-color: #FFCC66;
   color: #000;
   font-weight: bold;
-  padding-right: 17px;
-  padding-left: 17px;
-  margin-right: 4px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 5px;
   line-height: 20px;
 }
 
@@ -34,7 +29,13 @@ body {
     background-color: #6633FF;
 }
 
-/** padding **/
+/*http://stackoverflow.com/questions/7165423/twitter-bootstrap-center-pills*/
+.centered-pills { text-align:center; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+/** html .centered-pills ul.nav-pills { display:inline; }*/ /* IE6 */
+/**+html .centered-pills ul.nav-pills { display:inline; }*/ /* IE7 */
 
 .content-container {
   padding-left: 10px;
