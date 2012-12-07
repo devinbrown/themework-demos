@@ -18,21 +18,16 @@ body {
   background: #6633FF;
 }
 
-/* text color for navbar */
 .navbar-fixed-top .brand,
 .navbar .nav-collapse .nav > li > a {
   color: #000;
 }
-
-/** padding **/
 
 .content-container {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 6px;
 }
-
-
 
 @media (min-width: 980px) {
   body {
