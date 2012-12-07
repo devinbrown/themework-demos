@@ -19,7 +19,7 @@
 
   /<!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 
-  .container
+  .container-fluid
 
     .hero-unit
       %h1 DC3 Field Catalog
@@ -29,35 +29,32 @@
 
     .navbar.navbar-inverse
       .navbar-inner
-        .container
-          %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
-          %a.brand{:href => "#"} DC3
-          .nav-collapse.collapse
-            %ul.nav
-              %li.active
-                %a{:href => "#"} Home
-              %li
-                %a{:href => "#"} Reports
-              %li
-                %a{:href => "#"} Radar
-              %li
-                %a{:href => "#"} Model / Forecast
-              %li
-                %a{:href => "#"} Research
-              %li
-                %a{:href => "#"} Missions
-              %li
-                %a{:href => "#"} Tools & Links
-              %li
-                %a{:href => "#"} Data Access
-              %li
-                %a{:href => "#"} Help
-
-
-    .row
+        %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        %a.brand{:href => "#"} DC3
+        .nav-collapse.collapse
+          %ul.nav
+            %li.active
+              %a{:href => "#"} Home
+            %li
+              %a{:href => "#"} Reports
+            %li
+              %a{:href => "#"} Radar
+            %li
+              %a{:href => "#"} Model / Forecast
+            %li
+              %a{:href => "#"} Research
+            %li
+              %a{:href => "#"} Missions
+            %li
+              %a{:href => "#"} Tools & Links
+            %li
+              %a{:href => "#"} Data Access
+            %li
+              %a{:href => "#"} Help
+    .row-fluid
       .span6
         .content-container
           %h2 Project Reports
@@ -66,7 +63,7 @@
         .content-container
           %h2 Latest News
           %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-    .row
+    .row-fluid
       .span12
         .content-container
           %h2 History
@@ -74,7 +71,7 @@
           %p Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
     %hr
       %footer.content-container
-        .row
+        .row-fluid
           .span3
             %ul
               %li DC3 Website
