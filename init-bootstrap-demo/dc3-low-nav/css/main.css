@@ -14,7 +14,6 @@ body {
 
 /* "purple" */
 .secondary-color,
-.btn,
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
   background: #6633FF;
 }
