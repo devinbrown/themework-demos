@@ -1,5 +1,5 @@
 body {
-  padding-top: 20px;
+  padding: 20px;
 }
 
 /* "orange" */
@@ -27,14 +27,12 @@ body {
 /** padding **/
 
 .content-container {
-  padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 6px;
 }
 
-.row {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
 
 @media (min-width: 980px) {
   body {
