@@ -45,6 +45,7 @@ body {
 }
 
 .hero-unit {
+  margin-top: 55px;
   margin-bottom: 5px;
   text-align: center;
 }
